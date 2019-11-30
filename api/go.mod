@@ -4,6 +4,7 @@ go 1.13
 
 require (
 	github.com/evanphx/json-patch v4.5.0+incompatible
+	github.com/gdm85/coshell v0.2.2
 	github.com/go-openapi/spec v0.19.4
 	github.com/golangci/golangci-lint v1.21.0
 	github.com/monopole/mdrip v1.0.0
