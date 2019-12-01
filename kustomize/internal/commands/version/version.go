@@ -20,6 +20,7 @@ func NewCmdVersion(w io.Writer) *cobra.Command {
 		Short:   "Prints the kustomize version",
 		Example: `kustomize version`,
 		Run: func(cmd *cobra.Command, args []string) {
+
 			if short {
 				fmt.Println(provenance.GetProvenance().Short())
 			} else {
